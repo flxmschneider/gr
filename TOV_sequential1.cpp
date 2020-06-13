@@ -19,10 +19,11 @@ main(void)  //Hauptprogramm
     //Variableninitialisierung
     M=0;
     r=pow(10,-14);
-    p=10*pow(0.0005,5.0/3);
+    //p=10*pow(0.0005,5.0/3);
+    p = 17.25*exp(5/3);
     dr=0.000001;
     
-    //do-while Schleife (Numerische Lösung der TOV-Gleichung) 
+    //do-while Schleife (Numerische Lï¿½sung der TOV-Gleichung) 
     do
       {
         e=eos(p);                                      //Wert der Energiedichte bei momentanen Druck
